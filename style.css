@@ -508,3 +508,42 @@ body.light .contact-form textarea {
     grid-template-columns: 1fr;
   }
 }
+
+.contact-info a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   LIGHT MODE TEXT FIX (ADD ONLY)
+   =============================== */
+
+/* Jab body me class 'light' ho */
+body.light {
+  color: #020617; /* black text */
+}
+
+/* Contact section ka background */
+body.light .contact-section {
+  background: #f8fafc;
+}
+
+/* Contact text readable ho */
+body.light .contact-info p {
+  color: #020617;
+}
+
+/* Contact links visible ho */
+body.light .contact-info a {
+  color: #0a66c2;
+}
+
+/* Dark mode me body ka color follow karo */
+.contact-info p,
+.contact-info a {
+  color: inherit;
+}
